@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    },
+    "jsx": "react-jsx" // Use the React JSX factory (could be "react-jsx" if using React 17+)
+  },
+  "include": ["/.js", "/.jsx"], // Include all JavaScript files
+  "exclude": ["node_modules"] // Exclude specific directories
+}
