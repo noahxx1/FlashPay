@@ -3,7 +3,7 @@ import { footerLinks, socialMedia } from "../constants";
 
 const Footer = () => {
   return (
-    <footer className="max-container">
+    <footer id="contact-us" className="max-container">
       <div className=" flex justify-between items-start gap-20 flex-wrap max-lg:flex-col">
         <div className=" flex flex-col items-start">
           <a href="/">
@@ -19,7 +19,9 @@ const Footer = () => {
                 key={index}
                 className="flex justify-center items-center w-12 h-12 bg-white rounded-full "
               >
-                <img src={icon.src} alt={icon.alt} width={24} height={24} />
+                <a href={icon.href}>
+                  <img src={icon.src} alt={icon.alt} width={24} height={24} />
+                </a>
               </div>
             ))}
           </div>

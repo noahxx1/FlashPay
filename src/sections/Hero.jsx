@@ -12,41 +12,43 @@ const Hero = () => {
           transition={{ ease: "easeOut", duration: 1 }}
           className="max-w-full xl:max-w-[600px]"
         >
-          <div className="flex flex-col sm:flex-row gap-2 sm:gap-4 items-center mt-10 justify-center xl:justify-start">
-            <p className=" font-manrope text-center sm:text-left text-lg sm:text-base ">
-              Safe and reliable financial services
+          <div
+            className={`flex flex-col sm:flex-row gap-2 sm:gap-4 items-center mt-10 justify-center xl:justify-end mb-12 `}
+          >
+            <p
+              className={`font-cairo text-center sm:text-left text-lg  sm:text-base order-2`}
+            >
+              تعريف عن التطبيق
             </p>
-            <img src={lock} alt="lock" className="w-4 h-4 sm:w-5 sm:h-5" />
+            <img
+              src={lock}
+              alt="lock"
+              className="w-4 h-4 sm:w-5 sm:h-5 order-1"
+            />
           </div>
-          <h1 className="text-3xl sm:text-4xl xl:text-5xl mt-4 sm:mt-6 leading-snug sm:leading-[50px] xl:leading-[65px] text-center xl:text-left">
-            The largest digital payment solution in Indonesia.
+          <h1
+            className={`text-2xl sm:text-4xl xl:text-4xl mt-4 sm:mt-6 leading-snug sm:leading-[50px] xl:leading-[50px] text-center xl:text-right font-cairo `}
+          >
+            هو تطبيق إلكتروني لتنظيم عملية بيع الوحدات الخليوية ويعتمد على
+            الوساطة بين شركات الخليوي والإنترنت
           </h1>
-          <p className="mt-4 sm:mt-6 text-gray-500 text-center xl:text-left text-base sm:text-lg">
-            Financial services for payments and reliable payees for startup
-            businesses.
+          <p
+            className={`mt-4 sm:mt-6 text-gray-500 text-center xl:text-right text-base sm:text-lg font-cairo`}
+          >
+            يقدم خدمة سريعة للسادة أصحاب محلات الخليوي والموزعين ونقاط البيع
+            المهتمة بهذه الخدمات المذكورة بشكل سريع ودقيق عملياً وحسابياً
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 mt-6 justify-center xl:justify-start items-center font-palanquin">
-            <button className="bg-black text-white px-6 py-3 rounded w-fit sm:w-auto text-center">
-              Get Started Now
-            </button>
-            <button className="bg-slate-200 px-6 py-3 rounded w-fit sm:w-auto text-center">
-              View Live Demo
-            </button>
-          </div>
-          <div className="flex flex-col sm:flex-row gap-5 mt-6 text-sm items-center xl:items-start font-palanquin xl:justify-start justify-center">
-            {info.map((information, index) => (
-              <div
-                key={index}
-                className="flex gap-2 items-center text-center sm:text-left"
+          <div
+            className={`flex flex-col sm:flex-row gap-4 mt-6 justify-center xl:justify-end items-center font-palanquin`}
+          >
+            <button className="bg-black text-white px-6 py-3 rounded w-fit sm:w-auto text-center font-cairo mt-12">
+              <a
+                className="no-underline"
+                href="https://focustradingco.sy/applications/Flash%20Pay.apk"
               >
-                <img
-                  src={information.img}
-                  alt="img"
-                  className="w-4 h-4 sm:w-5 sm:h-5"
-                />
-                <p className=" sm:text-sm">{information.label}</p>
-              </div>
-            ))}
+                تحميل التطبيق
+              </a>
+            </button>
           </div>
         </motion.div>
         <motion.img

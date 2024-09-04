@@ -2,9 +2,7 @@ import {
   twitter,
   facebook,
   instagram2,
-  youtube,
   google,
-  googleDrive,
   instagram1,
   fb,
   whatsApp,
@@ -18,11 +16,11 @@ import {
 } from "../assets/icons";
 
 export const navLinks = [
-  { href: "#home", label: "Products" },
-  { href: "#caseStudy", label: "Solutions" },
-  { href: "#products", label: "Industies" },
-  { href: "#contact-us", label: "Features" },
-  { href: "#contact-us", label: "Intergation" },
+  { href: "#home", label: "الرئيسية" },
+  { href: "#caseStudy", label: "من نحن" },
+  { href: "#products", label: "عن التطبيق" },
+  { href: "#features", label: "مميزات" },
+  { href: "#contact", label: "تواصل معنا" },
 ];
 
 export const statistics = [
@@ -82,15 +80,69 @@ export const footerLinks = [
     title: "Get in touch",
     links: [
       {
-        name: "Say-hello@dimony.com",
-        link: "Say-hello@dimony.com",
+        name: "info@focustradingcompany.com",
+        link: "info@focustradingcompany.com",
       },
     ],
   },
 ];
 
 export const socialMedia = [
-  { src: facebook, alt: "facebook logo" },
+  {
+    src: facebook,
+    alt: "facebook logo",
+    href: "https://www.facebook.com/profile.php?id=61563211761264",
+  },
   { src: twitter, alt: "twitter logo" },
   { src: instagram2, alt: "instagram logo" },
+];
+
+export const infoNeeded = [
+  { label: "الاسم الثلاثي باللغة العربية (حصرا)" },
+  { label: "عنوان المحافظة و المنطقة المتواجد بها" },
+  { label: "انشاء كلمة مرور من ارقام و حروف و رموز لحماية الحساب بشكل جيد" },
+  {
+    label:
+      "لا يمكن الاستفادة من الحساب قبل استكمال الاوراق المطلوبة من قبل السادة الخيئة الناظمة للاتصالات و البريد للحصول على حساب تطبيق (فلاش-باي)",
+  },
+  {
+    label:
+      "يجب ان يكون الرقم الخليوي المفعل على التطبيق باسم صاحب الهوية المفعل للحساب حصرا",
+  },
+  {
+    label:
+      "جميع العمليات التي تقوم بها على التطبيق من تحويل وحدات أو تسديد فواتير هي مخزنة لدى شركة تركيز ويمكنها الاطلاع عليها وهي تتعهد بالحفاظ على سرية المعلومات بالإضافة إلى إمكانية الاطلاع عليها من قبلكم",
+  },
+  { label: "لا يعمل التطبيق خارج الجمهورية العربية السورية" },
+  { label: "يطلب التطبيق صلاحية الوصول للموقع عند إجراء أي عملية تحويل" },
+];
+
+export const required = [
+  { label: "صورة ورقية للهوية الشخصية" },
+  { label: "وثيقة غير محكوم" },
+  { label: " وثيقة اثبات مكان عمل" },
+  {
+    label:
+      "تعهد و استمارة (شخص طبيعي) من قبل السادة الهيئة الناظمة للاتصالات و البريد",
+  },
+  {
+    label:
+      "تتعهد الشركة المسؤولة عن التطبيق بالحفاظ على سرية البيانات والعمليات الخاصة بكم عند استخدام التطبيق",
+  },
+  {
+    label:
+      "ستقدم لكم الشركة ارقام حساباتها البنكية مفصلة بايقونة داخل التطبيق لسهولة التعامل باقرب بنك متواجد لديكم",
+  },
+  {
+    label:
+      "تتعهد الشركة بتعبئة الرصيد لكم بعد الإيداع البنكي وإرفاق الإشعار عن طريق التطبيق خلال 30 دقيقة على الأكثر",
+  },
+  {
+    label:
+      "بإمكان المستخدم طلب تقرير لأي عملية نفذها من التطبيق سواء وحدات خليوية أو فاتورة خليوي عن طريق خدمة الزبائن وسيتم إرسال له تقرير من واجهة الشركة المخدمة للعملية مع رقم العملية",
+  },
+  {
+    label:
+      "التطبيق يوزع مجاناً ولا تتقاضى الشركة أي مبلغ مادي مقابل انشاء الحساب",
+  },
 ];

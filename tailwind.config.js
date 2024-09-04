@@ -74,6 +74,7 @@ module.exports = {
       fontFamily: {
         palanquin: ["Palanquin", "sans-serif"],
         manrope: ["manrope", "sans-serif"],
+        cairo: ["cairo", "sans-serif"],
       },
       colors: {
         "coral-red": "#FF4820",

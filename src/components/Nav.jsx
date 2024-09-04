@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { hamburger, webLogo } from "../assets/icons";
 import { navLinks } from "../constants";
 import { motion } from "framer-motion";
@@ -19,7 +18,7 @@ const Nav = () => {
         <a href="/">
           <img src={webLogo} alt="logo" width={129} height={30} />
         </a>
-        <ul className="flex gap-8 font-manrope font-bold max-lg:hidden ">
+        <ul className="flex gap-8 font-cairo font-bold max-lg:hidden ">
           {navLinks.map((item, index) => (
             <li key={index}>
               <a href={item.href}>{item.label}</a>
@@ -55,13 +54,13 @@ const Nav = () => {
                 </SheetClose>
               ))}
               <button className="font-palanquin bg-black text-white px-4 py-2 rounded mt-10 ">
-                Get Started
+                English
               </button>
             </SheetClose>
           </SheetContent>
         </Sheet>
         <button className="font-palanquin bg-black text-white px-4 py-2 rounded max-lg:hidden">
-          Get Started
+          English
         </button>
       </nav>
     </motion.header>
