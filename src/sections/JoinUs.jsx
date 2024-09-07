@@ -3,6 +3,7 @@ import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import emailjs from "emailjs-com";
+import { clock, location, phone } from "../assets/icons";
 
 const formSchema = z.object({
   username: z.string().min(2, {
@@ -78,10 +79,7 @@ const JoinUs = () => {
               <ul className="flex flex-col gap-6 mb-6 md:mb-0">
                 <li className="flex gap-2">
                   <div className="flex h-10 w-10 items-center justify-center">
-                    <img
-                      src="/src/assets/icons/location-pin-svgrepo-com.svg"
-                      alt=""
-                    />
+                    <img src={location} alt="" />
                   </div>
                   <div className="ml-4 mb-4">
                     <h3 className="mb-2 text-lg font-medium leading-6 text-gray-900">
@@ -97,7 +95,7 @@ const JoinUs = () => {
                 </li>
                 <li className="flex gap-2">
                   <div className="flex h-10 w-10 items-center justify-center">
-                    <img src="/src/assets/icons/phone-svgrepo-com.svg" alt="" />
+                    <img src={phone} alt="" />
                   </div>
                   <div className="ml-4 mb-4">
                     <h3 className="mb-2 text-lg font-medium leading-6 text-gray-900 ">
@@ -116,10 +114,7 @@ const JoinUs = () => {
                 </li>
                 <li className="flex gap-2">
                   <div className="flex h-10 w-10 items-center justify-center">
-                    <img
-                      src="/src/assets/icons/clock-two-svgrepo-com.svg"
-                      alt=""
-                    />
+                    <img src={clock} alt="" />
                   </div>
                   <div className="ml-4 mb-4">
                     <h3 className="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white">
