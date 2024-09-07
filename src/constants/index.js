@@ -1,10 +1,7 @@
 import {
-  twitter,
   facebook,
-  instagram2,
   google,
   instagram1,
-  fb,
   whatsApp,
   linkedin,
   telegram,
@@ -37,7 +34,6 @@ export const info = [
 export const drives = [
   { drive: google },
   { drive: instagram1 },
-  { drive: fb },
   { drive: whatsApp },
   { drive: linkedin },
   { drive: telegram },
@@ -93,8 +89,11 @@ export const socialMedia = [
     alt: "facebook logo",
     href: "https://www.facebook.com/profile.php?id=61563211761264",
   },
-  { src: twitter, alt: "twitter logo" },
-  { src: instagram2, alt: "instagram logo" },
+  {
+    src: linkedin,
+    alt: "linked in logo",
+    href: "https://www.linkedin.com/in/focus-holding-934a24272",
+  },
 ];
 
 export const infoNeeded = [

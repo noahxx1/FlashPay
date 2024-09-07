@@ -10,17 +10,14 @@ const Footer = () => {
             <img src={webLogo} width={150} height={46} />
           </a>
           <p className="mt-6 text-base leading-7 font-montserrat text-white-400 sm:max-w-sm">
-            Dimoney processes payments , helps marketplaces simplify payments,
+            Flash-pay processes payments , helps marketplaces simplify payments,
             send payments and other financial facilities
           </p>
           <div className="flex items-center mt-8 gap-3">
             {socialMedia.map((icon, index) => (
-              <div
-                key={index}
-                className="flex justify-center items-center w-12 h-12 bg-white rounded-full "
-              >
+              <div key={index} className="flex justify-center items-center">
                 <a href={icon.href}>
-                  <img src={icon.src} alt={icon.alt} width={24} height={24} />
+                  <img src={icon.src} alt={icon.alt} width={30} height={30} />
                 </a>
               </div>
             ))}
@@ -48,7 +45,10 @@ const Footer = () => {
       </div>
       <div className="flex justify-between text-white-400 mt-24 max-sm:flex-col max-sm:items-center">
         <div className="flex flex-1 justify-center items-center gap-2 font-montserrat cursor-pointer">
-          <p>© Copyright. All rights reserved.</p>
+          <p>
+            Copyright ©2024 Focus Digital Solutions Company. All rights
+            reserved.
+          </p>
         </div>
       </div>
     </footer>

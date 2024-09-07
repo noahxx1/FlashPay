@@ -34,9 +34,9 @@ const JoinUs = () => {
 
   const onSubmit = (data) => {
     if (formRef.current) {
-      const service_id = "your_service_id";
-      const template_id = "your_template_id";
-      const public_key = "your_public_key";
+      const service_id = "service_dwpn74x";
+      const template_id = "template_6v4qd9j";
+      const public_key = "FjyaUwYaMFEebx_vB";
 
       emailjs
         .sendForm(service_id, template_id, formRef.current, public_key)
@@ -76,13 +76,15 @@ const JoinUs = () => {
                 نتجاوب معك خلال 24 ساعة
               </p>
               <ul className="flex flex-col gap-6 mb-6 md:mb-0">
-                <li className="flex">
-                  <div className="flex h-10 w-10 items-center justify-center rounded bg-black text-gray-50">
-                    {/* SVG Icons */}
-                    <svg /* Icon 1 */></svg>
+                <li className="flex gap-2">
+                  <div className="flex h-10 w-10 items-center justify-center">
+                    <img
+                      src="/src/assets/icons/location-pin-svgrepo-com.svg"
+                      alt=""
+                    />
                   </div>
                   <div className="ml-4 mb-4">
-                    <h3 className="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white">
+                    <h3 className="mb-2 text-lg font-medium leading-6 text-gray-900">
                       موقعنا
                     </h3>
                     <p className="text-gray-600 dark:text-slate-400">
@@ -93,13 +95,12 @@ const JoinUs = () => {
                     </p>
                   </div>
                 </li>
-                <li className="flex">
-                  <div className="flex h-10 w-10 items-center justify-center rounded bg-black text-gray-50">
-                    {/* SVG Icons */}
-                    <svg /* Icon 2 */></svg>
+                <li className="flex gap-2">
+                  <div className="flex h-10 w-10 items-center justify-center">
+                    <img src="/src/assets/icons/phone-svgrepo-com.svg" alt="" />
                   </div>
                   <div className="ml-4 mb-4">
-                    <h3 className="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white">
+                    <h3 className="mb-2 text-lg font-medium leading-6 text-gray-900 ">
                       للتواصل
                     </h3>
                     <p className="text-gray-600 dark:text-slate-400">
@@ -113,10 +114,12 @@ const JoinUs = () => {
                     </p>
                   </div>
                 </li>
-                <li className="flex">
-                  <div className="flex h-10 w-10 items-center justify-center rounded bg-black text-gray-50">
-                    {/* SVG Icons */}
-                    <svg /* Icon 3 */></svg>
+                <li className="flex gap-2">
+                  <div className="flex h-10 w-10 items-center justify-center">
+                    <img
+                      src="/src/assets/icons/clock-two-svgrepo-com.svg"
+                      alt=""
+                    />
                   </div>
                   <div className="ml-4 mb-4">
                     <h3 className="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white">

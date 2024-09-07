@@ -44,13 +44,13 @@ const Interagation = () => {
         </div>
         <div className="flex flex-col justify-center items-center mt-5">
           <p className="mb-5 text-gray-500 ">: الشركات التي تم التعاقد معها</p>
-          <div className="flex">
+          <div className="flex items-center gap-6 xl:gap-10">
             {logos.map((logo, index) => (
               <img
                 key={index}
                 src={logo.logo}
                 alt="logo"
-                className="lg:w-[150px] w-[80px]"
+                className="lg:w-[120px] w-[60px]"
               />
             ))}
           </div>

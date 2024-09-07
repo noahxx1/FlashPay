@@ -16,15 +16,10 @@ const Hero = () => {
             className={`flex flex-col sm:flex-row gap-2 sm:gap-4 items-center mt-10 justify-center xl:justify-end mb-12 `}
           >
             <p
-              className={`font-cairo text-center sm:text-left text-lg  sm:text-base order-2`}
+              className={`font-cairo font-bold text-center sm:text-left text-lg  sm:text-base order-2`}
             >
               تعريف عن التطبيق
             </p>
-            <img
-              src={lock}
-              alt="lock"
-              className="w-4 h-4 sm:w-5 sm:h-5 order-1"
-            />
           </div>
           <h1
             className={`text-2xl sm:text-4xl xl:text-4xl mt-4 sm:mt-6 leading-snug sm:leading-[50px] xl:leading-[50px] text-center xl:text-right font-cairo `}

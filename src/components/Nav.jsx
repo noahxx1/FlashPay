@@ -48,20 +48,14 @@ const Nav = () => {
             <SheetClose className="flex flex-col justify-center items-start gap-8 ml-4 ">
               {navLinks.map((item, index) => (
                 <SheetClose key={index}>
-                  <li>
+                  <li className="font-bold">
                     <a href={item.href}>{item.label}</a>
                   </li>
                 </SheetClose>
               ))}
-              <button className="font-palanquin bg-black text-white px-4 py-2 rounded mt-10 ">
-                English
-              </button>
             </SheetClose>
           </SheetContent>
         </Sheet>
-        <button className="font-palanquin bg-black text-white px-4 py-2 rounded max-lg:hidden">
-          English
-        </button>
       </nav>
     </motion.header>
   );
