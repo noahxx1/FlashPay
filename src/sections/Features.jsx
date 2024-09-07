@@ -1,4 +1,3 @@
-import { arrowRight } from "../assets/icons";
 import { featuersImg } from "../assets/images";
 import AnimatedSection from "../components/AnimatedSection";
 
@@ -7,7 +6,7 @@ const Features = () => {
     <section id="features">
       <div className="max-container flex flex-col items-center font-cairo">
         <div className="flex flex-col items-center gap-6">
-          <h1 className="font-bold">مميزات</h1>
+          <h1 className="font-bold three mb-6"> مميزات التطبيق</h1>
           <p className="text-3xl font-bold mb-16">
             واجهات سهلة الاستخدام تتناسب مع مختلف مستويات الخبرة لدى المستخدمين
           </p>

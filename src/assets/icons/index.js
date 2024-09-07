@@ -13,7 +13,7 @@ import telegram from "./telegram.svg";
 import twitter from "./twitter.svg";
 import vedio from "./video.svg";
 import wallet from "./wallet.svg";
-import webLogo from "./web-logo.svg";
+import webLogo from "./web-logo.png";
 import whatsApp from "./whatsApp.svg";
 import youtube from "./youtube.svg";
 import trueMark from "./trueMark.svg";

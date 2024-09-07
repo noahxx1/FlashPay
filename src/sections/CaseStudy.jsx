@@ -1,7 +1,5 @@
-import { vedio } from "../assets/icons";
 import { person } from "../assets/images";
 import AnimatedSection from "../components/AnimatedSection";
-import { statistics } from "../constants";
 
 const CaseStudy = () => {
   return (
@@ -28,7 +26,7 @@ const CaseStudy = () => {
         <div
           className={`flex flex-col gap-6 xl:gap-12 max-w-full xl:max-w-[550px] font-cairo items-center xl:items-end p-4`}
         >
-          <p className="font-bold  w-fit p-2 rounded text-sm xl:text-base">
+          <p className="three font-bold text-right mb-6 w-fit p-2 rounded text-sm xl:text-base">
             الجهة المسؤولة عن التطبيق
           </p>
           <h1
@@ -37,7 +35,7 @@ const CaseStudy = () => {
             تعود حقوق ملكية تطبيق فلاش-باي لشركة تركيز محدودة المسؤولية
           </h1>
           <p
-            className={`text-gray-600 text-sm xl:text-base text-center xl:text-right xl:mt-11`}
+            className={`text-gray-600 text-sm xl:text-base text-center xl:text-right`}
           >
             تعتبر الشركة مسرولة عن بشكل كامل عن التطبيق و ادارته و متابعة الحلول
             و المشاكل و هي على استعداد تام لتقديم الخدمة على افضل وجد على مدار

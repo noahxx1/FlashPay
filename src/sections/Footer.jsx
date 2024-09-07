@@ -7,7 +7,7 @@ const Footer = () => {
       <div className=" flex justify-between items-start gap-20 flex-wrap max-lg:flex-col">
         <div className=" flex flex-col items-start">
           <a href="/">
-            <img src={webLogo} width={150} height={46} />
+            <img src={webLogo} width={200} height={46} />
           </a>
           <p className="mt-6 text-base leading-7 font-montserrat text-white-400 sm:max-w-sm">
             Flash-pay processes payments , helps marketplaces simplify payments,
@@ -46,8 +46,17 @@ const Footer = () => {
       <div className="flex justify-between text-white-400 mt-24 max-sm:flex-col max-sm:items-center">
         <div className="flex flex-1 justify-center items-center gap-2 font-montserrat cursor-pointer">
           <p>
-            Copyright ©2024 Focus Digital Solutions Company. All rights
-            reserved.
+            Copyright ©2024{" "}
+            <a
+              href="https://focustradingcompany.com/"
+              target="_blank"
+              rel="noreferrer"
+              className="text-[#1eaab8]"
+            >
+              {" "}
+              Focus Digital Solutions Company.
+            </a>{" "}
+            All rights reserved.
           </p>
         </div>
       </div>

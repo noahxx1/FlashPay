@@ -58,8 +58,8 @@ const JoinUs = () => {
     <section id="contact">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 font-cairo">
         <div className="mb-4">
-          <div className="mb-6 max-w-3xl text-center sm:text-center md:mx-auto md:mb-12">
-            <p className="text-base uppercase tracking-wide font-cairo dark:text-blue-200 mb-6 font-bold">
+          <div className="mb-6 text-center sm:text-center md:mx-auto md:mb-12 flex flex-col">
+            <p className="text-base three w-fit self-center tracking-wide font-cairo mb-6 font-bold">
               تواصل معنا
             </p>
             <p className="mx-auto mt-4 max-w-3xl text-3xl font-bold leading-[50px]">
@@ -153,7 +153,7 @@ const JoinUs = () => {
                         id="username"
                         autoComplete="given-name"
                         placeholder="الاسم"
-                        className={`mb-2 w-full rounded border input-2  text-right border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0 ${
+                        className={`mb-2 w-full rounded border input-2 text-right border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0 ${
                           errors.username ? "border-red-500" : ""
                         }`}
                         {...register("username")}
@@ -164,7 +164,7 @@ const JoinUs = () => {
                         </p>
                       )}
                     </div>
-                    <div className="mx-0 mb-1 sm:mb-4 ">
+                    <div className="mx-0 mb-1 sm:mb-4">
                       <label
                         htmlFor="email"
                         className="pb-1 text-xs uppercase tracking-wider"

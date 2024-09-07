@@ -16,7 +16,7 @@ const Hero = () => {
             className={`flex flex-col sm:flex-row gap-2 sm:gap-4 items-center mt-10 justify-center xl:justify-end mb-12 `}
           >
             <p
-              className={`font-cairo font-bold text-center sm:text-left text-lg  sm:text-base order-2`}
+              className={`font-cairo three font-bold text-center sm:text-left text-lg  sm:text-base order-2`}
             >
               تعريف عن التطبيق
             </p>

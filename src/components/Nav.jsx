@@ -13,10 +13,16 @@ import { SheetClose } from "./ui/sheet";
 
 const Nav = () => {
   return (
-    <motion.header className="padding-x  absolute z-10 w-full">
+    <motion.header className="padding-x py-6 absolute z-10 w-full">
       <nav className="flex justify-between items-center max-container">
         <a href="/">
-          <img src={webLogo} alt="logo" width={129} height={30} />
+          <img
+            src={webLogo}
+            alt="logo"
+            width={129}
+            height={30}
+            className="mt-2"
+          />
         </a>
         <ul className="flex gap-8 font-cairo font-bold max-lg:hidden ">
           {navLinks.map((item, index) => (

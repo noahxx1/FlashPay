@@ -1,4 +1,4 @@
-import featuersImg from "./featuresImg.svg";
+import featuersImg from "./featuresImg.png";
 import heroImg from "./heroImg.png";
 import person from "./Rectangle 26.png";
 

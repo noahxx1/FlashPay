@@ -1,12 +1,11 @@
-import { arrowRight, face, plus, wallet } from "../assets/icons";
 import AnimatedSection from "../components/AnimatedSection";
-import { drives, infoNeeded, logos, required } from "../constants";
+import { infoNeeded, logos, required } from "../constants";
 
 const Interagation = () => {
   return (
     <section id="products">
       <div className="flex flex-col justify-center items-center gap-6 font-cairo max-container">
-        <h1 className="font-bold">كيفية استخدام التطبيق</h1>
+        <h1 className="font-bold three mb-6">كيفية استخدام التطبيق</h1>
         <p className="text-3xl font-bold mb-4">
           تجد هنا جميع المتطلبات اللازمة لبدء استخدام التطبيق
         </p>

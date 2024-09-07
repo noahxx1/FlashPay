@@ -59,4 +59,26 @@
   .info-text {
     @apply font-montserrat text-slate-gray text-lg leading-7;
   }
+  .three {
+    position: relative;
+    margin-bottom: 2;
+  }
+  .three:before {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: -15px;
+    height: 5px;
+    width: 40px;
+    background-color: #111;
+  }
+  .three:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: -13px;
+    height: 1px;
+    width: 95%;
+    background-color: #333;
+  }
 }
